@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    padding: 15px 0;
+    background-color: #ffffff;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    width: 80%;
+}
+
+.logo-content emg {
+    border: opx solid #42515f;
+    margin-right: 10px;
+}
+
+.emp-text {
+    font: normal normal normal 15px/20px montserrate;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #82a70c;
+    text-transform: capitalize;
+}
+
+.emp-payroll {
+    color: #42515f;
+}
+
+*box-sizing {
+    border: border-box;
+}
+
+.form-content {
+    min-height: calc(100% - 80px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.form {
+    width: 65%;
+    padding: 44px 60px;
+    /* background-color: #ffffff 0% 0% no-reapeat padding-box; */
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-head {
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.label {
+    min-width: 140px;
+    padding-left: 10;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.text {
+    font-size: 16px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Roboto;
+}
+
+.input {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid#ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.profile-radio-content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 45px;
+}
+
+.profile-radio-content>label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 1px;
+    padding-left: 15px;
+
+
+}
+
+.buttonParent {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #00000029;
+    border: none;
+    color: white;
+    padding: 10px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+ /* .cancel-button {
+    text-align: center;
+    padding: 10px;
+    background-color: #00000029;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+} */ 
+
+textarea {
+    width: 80%;
+    padding-top: 20px;
+}
+select{
+    padding: 12px;
+    padding-right: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 16px roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    background-color: transparent;
+
+}
+
+.date{
+
+    gap:20px;
+    
+    
+}
