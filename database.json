@@ -1,0 +1,64 @@
+{
+  "employee": [
+    {
+      "name": "shital karad",
+     
+      "gender": "female",
+      "departMent": "HR",
+      "salary": "",
+      "startDate": "15 Aug 20000",
+      "notes": "sjf",
+      "id": 1
+    },
+    {
+      "name": "shitall",
+      "profileUrl": "..\\assets\\profile-images\\Ellipse -1.png",
+      "gender": "female",
+      "departMent": "Finaance",
+      "mysalary": "2005",
+      "startDate": "21 Nov 1999",
+      "notes": "ok",
+      "id": 7
+    },
+    {
+      "name": "Madhuri Bobde",
+      "profileUrl": "..\\assets\\profile-images\\Ellipse -3.png",
+      "gender": "male",
+      "departMent": "Sales",
+      "mysalary": "2003",
+      "startDate": "11 Sep 2003",
+      "notes": "ok",
+      "id": 8
+    },
+    {
+      "name": " shital",
+      "profileUrl": "..\\assets\\profile-images\\Ellipse -8.png",
+      "gender": "male",
+      "departMent": "Finaance",
+      "mysalary": "",
+      "startDate": "13 Aug 2003",
+      "notes": "god",
+      "id": 10
+    },
+    {
+      "name": "  darade",
+      "profileUrl": "..\\assets\\profile-images\\Ellipse -1.png",
+      "gender": "female",
+      "departMent": "Finaance",
+      "mysalary": "",
+      "startDate": "13 Oct 2005",
+      "notes": "go0d",
+      "id": 11
+    },
+    {
+      "name": " vaibhav",
+      "profileUrl": "..\\assets\\profile-images\\Ellipse -3.png",
+      "gender": "male",
+      "departMent": "HR",
+      "salary": "30000",
+      "startDate": "15 July 2005",
+      "notes": "ok",
+      "id": 12
+    }
+  ]
+}

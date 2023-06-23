@@ -1,49 +1,36 @@
-function employee(){
-	var name=$('#name').val();
-    console.log(name);
-
-    var image = $('input[name="profile"]:checked').val();
-  console.log(image);
-
-  var gender = $('input[name="gender"]:checked').val();
+  const addData =() =>{
+  var name = $('#name').val();
+  console.log(name);
+  var lname = $('#lastName').val();
+  console.log(lname);
+  var gender = $("input[name='gender']").val();
+  
   console.log(gender);
-
-  var department = $('input[name="department"]:checked').val();
-  console.log(department);
-
   var salary = $('#salary').val();
   console.log(salary);
 
-  var day = $('#date').val();
-  var month = $('#month').val();
-  var year = $('#year').val();
-  console.log("Start Date = " + day + month + year);
-
-  var note = $('#notes').val();
-  console.log(note);
-
-  let requestload = {
+  let employeeObj = {
     "name": name,
-    "profileUrl": image,
+    "lastName": lastName,
     "gender": gender,
-    "departMent": department,
-    "salary": salary,
-    "startDate": day + ' ' + month + ' ' + year,
-    "notes": note
+    "salary": salary
   }
-  console.log(requestload);
-
+  console.log(employeeObj);
   $.ajax({
     url: 'http://localhost:3000/employee',
-    type: 'POST',
-    dataType: 'json',
-    data: requestload,
-    success: function (data, textStatus, xhr) {
+    type:'POST',
+    dataType:'json',
+    data:employeeObj,
+    success:function(data,){
       console.log(data);
+
     },
-    error: function (xhr, textStatus, errorThrown) {
-      console.log('Error in Operation');
+    error:function(textError){
+      console.log('error in operation');
     }
+
   })
+
+
 }
 
